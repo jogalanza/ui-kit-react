@@ -1,6 +1,6 @@
 {
-  "name": "@jogalanza/data-table",
-  "version": "0.1.1",
+  "name": "@jogalanza/react-data-table",
+  "version": "0.1.0",
   "description": "A sortable, filterable, paginated data table built on @tanstack/react-table and shadcn/Radix primitives, for jogalanza projects.",
   "type": "module",
   "main": "./dist/data-table.js",
@@ -14,7 +14,7 @@
     "dist"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,7 @@
     "@tanstack/react-table": "^8.21.3"
   },
   "devDependencies": {
-    "@jogalanza/ui-kit-core": "*",
+    "@jogalanza/react-ui-kit-core": "*",
     "@radix-ui/react-icons": "^1.3.0",
     "@tanstack/react-table": "^8.21.3",
     "@types/react": "^19.0.0",

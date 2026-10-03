@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { cn } from '@jogalanza/ui-kit-core'
+import { cn } from '@jogalanza/react-ui-kit-core'
 
 export type Rule = (value: any) => true | string
 

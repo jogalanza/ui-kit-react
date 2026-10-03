@@ -1,17 +1,17 @@
-# @jogalanza/data-table
+# @jogalanza/react-data-table
 
 A sortable, filterable, paginated data table built on [@tanstack/react-table](https://tanstack.com/table/latest) and shadcn/Radix primitives — column visibility toggle, page-size selector, and pagination controls included. React port of the Vue `@jogalanza/data-table`.
 
 ## Install
 
 ```
-npm install @jogalanza/data-table
+npm install @jogalanza/react-data-table
 ```
 
 ## Usage
 
 ```tsx
-import { DataTable } from '@jogalanza/data-table'
+import { DataTable } from '@jogalanza/react-data-table'
 
 const data = [
   { id: 1, name: 'Widget A', status: 'Active' },

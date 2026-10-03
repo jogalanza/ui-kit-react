@@ -1,26 +1,18 @@
-# @jogalanza/filterbar
+# @jogalanza/react-filterbar
 
 A badge-style popover filter bar for React, built on [Radix UI](https://www.radix-ui.com/) primitives and Tailwind utility classes. React port of the Vue `@jogalanza/filterbar`.
 
 ## Install
 
-Add a `.npmrc` in the consuming project pointing the `@jogalanza` scope at GitHub Packages:
-
 ```
-@jogalanza:registry=https://npm.pkg.github.com
-```
-
-Then:
-
-```
-npm install @jogalanza/filterbar
+npm install @jogalanza/react-filterbar
 ```
 
 ## Usage
 
 ```tsx
 import { useState } from 'react'
-import { FilterBar } from '@jogalanza/filterbar'
+import { FilterBar } from '@jogalanza/react-filterbar'
 
 const filterOpts = [
   { key: 'status', label: 'Status', type: 'select', alwaysVisible: true, options: ['Open', 'Closed'] },
@@ -56,7 +48,7 @@ This package expects the host project to already provide: `react`, `react-dom`, 
 FilterBar uses Tailwind utility classes and shadcn design tokens (`bg-popover`, `text-muted-foreground`, etc.) rather than scoped CSS. Make sure your Tailwind `content` config includes this package so its classes aren't purged, e.g.:
 
 ```js
-content: ['./src/**/*.{ts,tsx,js,jsx}', './node_modules/@jogalanza/filterbar/**/*.js']
+content: ['./src/**/*.{ts,tsx,js,jsx}', './node_modules/@jogalanza/react-filterbar/**/*.js']
 ```
 
 ## Develop

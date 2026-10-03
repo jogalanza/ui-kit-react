@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Select as SelectPrimitive } from 'radix-ui'
 import { CheckIcon } from '@radix-ui/react-icons'
-import { cn } from '@jogalanza/ui-kit-core'
+import { cn } from '@jogalanza/react-ui-kit-core'
 
 export type SelectItemProps = React.ComponentPropsWithoutRef<
   typeof SelectPrimitive.Item

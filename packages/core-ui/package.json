@@ -1,6 +1,6 @@
 {
-  "name": "@jogalanza/ui-kit-core",
-  "version": "0.1.1",
+  "name": "@jogalanza/react-ui-kit-core",
+  "version": "0.1.0",
   "description": "Shared shadcn React primitives (Badge, Button, Dialog, DropdownMenu, Table, Toaster, etc.) and small utilities (cn, notify) for jogalanza projects.",
   "type": "module",
   "main": "./dist/ui-kit-core.js",

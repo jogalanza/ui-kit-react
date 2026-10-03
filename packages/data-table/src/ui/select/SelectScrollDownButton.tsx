@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Select as SelectPrimitive } from 'radix-ui'
 import { ChevronDownIcon } from '@radix-ui/react-icons'
-import { cn } from '@jogalanza/ui-kit-core'
+import { cn } from '@jogalanza/react-ui-kit-core'
 
 export const SelectScrollDownButton = React.forwardRef<
   React.ElementRef<typeof SelectPrimitive.ScrollDownButton>,

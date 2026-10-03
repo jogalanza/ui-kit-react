@@ -1,6 +1,6 @@
 {
-  "name": "@jogalanza/base-fields",
-  "version": "0.2.0",
+  "name": "@jogalanza/react-base-fields",
+  "version": "0.1.0",
   "description": "Form-field components (BaseInput, BaseSelect, BaseCombobox, etc.) built on React/Radix primitives, for jogalanza projects.",
   "type": "module",
   "main": "./dist/base-fields.js",
@@ -15,7 +15,7 @@
     "dist"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -38,7 +38,7 @@
     "@tiptap/extension-placeholder": "^3.28.0"
   },
   "devDependencies": {
-    "@jogalanza/ui-kit-core": "*",
+    "@jogalanza/react-ui-kit-core": "*",
     "@tiptap/extension-link": "^3.28.0",
     "@tiptap/extension-placeholder": "^3.28.0",
     "@tiptap/extension-underline": "^3.28.0",

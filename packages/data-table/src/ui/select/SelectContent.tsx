@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Select as SelectPrimitive } from 'radix-ui'
-import { cn } from '@jogalanza/ui-kit-core'
+import { cn } from '@jogalanza/react-ui-kit-core'
 import { SelectScrollDownButton } from './SelectScrollDownButton'
 import { SelectScrollUpButton } from './SelectScrollUpButton'
 

@@ -5,7 +5,7 @@ import {
   Input,
   NativeSelect,
   NativeSelectOption,
-} from '@jogalanza/ui-kit-core'
+} from '@jogalanza/react-ui-kit-core'
 import type { FilterOption } from './types'
 
 export interface FilterFieldProps {

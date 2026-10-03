@@ -14,7 +14,7 @@ export default defineConfig({
       formats: ['es'],
     },
     rollupOptions: {
-      // @jogalanza/ui-kit-core is workspace-private and intentionally NOT external — it gets
+      // @jogalanza/react-ui-kit-core is workspace-private and intentionally NOT external — it gets
       // bundled into this package's dist so consumers never need to know it exists.
       external: [
         'react',

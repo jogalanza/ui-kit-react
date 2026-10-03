@@ -26,7 +26,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@jogalanza/ui-kit-core'
+} from '@jogalanza/react-ui-kit-core'
 import {
   Select,
   SelectContent,

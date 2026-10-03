@@ -1,6 +1,6 @@
 {
-  "name": "@jogalanza/filterbar",
-  "version": "0.1.3",
+  "name": "@jogalanza/react-filterbar",
+  "version": "0.1.0",
   "description": "Shared FilterBar React component (badge-style popover filter bar) for jogalanza projects.",
   "type": "module",
   "main": "./dist/filterbar.js",
@@ -36,7 +36,7 @@
     "tailwind-merge": "^3.6.0"
   },
   "devDependencies": {
-    "@jogalanza/ui-kit-core": "*",
+    "@jogalanza/react-ui-kit-core": "*",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^5.0.0",

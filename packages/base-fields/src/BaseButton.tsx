@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Button, cn } from '@jogalanza/ui-kit-core'
+import { Button, cn } from '@jogalanza/react-ui-kit-core'
 
 export interface BaseButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {

@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Image as ImageIcon, User } from 'lucide-react'
-import { cn } from '@jogalanza/ui-kit-core'
+import { cn } from '@jogalanza/react-ui-kit-core'
 
 export interface BaseImageFieldProps {
   value?: any

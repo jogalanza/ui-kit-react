@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Select as SelectPrimitive } from 'radix-ui'
 import { Check, ChevronDown, X } from 'lucide-react'
-import { cn } from '@jogalanza/ui-kit-core'
+import { cn } from '@jogalanza/react-ui-kit-core'
 import type { Rule } from './BaseInput'
 
 export interface BaseSelectProps {

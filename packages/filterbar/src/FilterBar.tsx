@@ -7,7 +7,7 @@ import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '@jogalanza/ui-kit-core'
+} from '@jogalanza/react-ui-kit-core'
 import { FilterField } from './FilterField'
 import type { FilterOption } from './types'
 

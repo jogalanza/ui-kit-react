@@ -4,15 +4,15 @@ React port of [`jogalanza/ui-kit`](https://github.com/jogalanza/ui-kit), distrib
 
 ```
 packages/
-  core-ui/      @jogalanza/ui-kit-core — shared shadcn React primitives (Badge, Button, Checkbox,
+  core-ui/      @jogalanza/react-ui-kit-core — shared shadcn React primitives (Badge, Button, Checkbox,
                 Dialog, DropdownMenu, Input, NativeSelect, Popover, Separator, Switch, Table,
                 Toaster), the cn() util, and the notify()/notifyError()/notifyResult() toast
                 helpers. Dual-purpose: published directly (for projects that want the primitives
                 on their own) AND bundled into other ui-kit packages at build time (e.g.
                 filterbar), so those stay fully self-contained without their own peer dependency.
-  filterbar/    @jogalanza/filterbar — badge-style popover filter bar.
-  base-fields/  @jogalanza/base-fields — form-field components built on the same primitives.
-  data-table/   @jogalanza/data-table — sortable, filterable, paginated table (@tanstack/react-table).
+  filterbar/    @jogalanza/react-filterbar — badge-style popover filter bar.
+  base-fields/  @jogalanza/react-base-fields — form-field components built on the same primitives.
+  data-table/   @jogalanza/react-data-table — sortable, filterable, paginated table (@tanstack/react-table).
 ```
 
 ## Port mapping (Vue → React)
@@ -35,8 +35,8 @@ against the React primitive.
 
 1. `packages/<name>/` with its own `package.json` and `vite.config.ts` (copy an existing package as a
    template — same `peerDependencies`, same `publishConfig`).
-2. Add `"@jogalanza/ui-kit-core": "*"` to its `devDependencies` (not `dependencies` — it is bundled at
-   build time) and import primitives from it, e.g. `import { Button, Popover } from '@jogalanza/ui-kit-core'`.
+2. Add `"@jogalanza/react-ui-kit-core": "*"` to its `devDependencies` (not `dependencies` — it is bundled at
+   build time) and import primitives from it, e.g. `import { Button, Popover } from '@jogalanza/react-ui-kit-core'`.
 3. Build `core-ui` before any package that bundles it — its `main`/`exports` point at its own built
    `dist`, not raw source.
 
