@@ -1,0 +1,57 @@
+{
+  "name": "@jogalanza/base-fields",
+  "version": "0.2.0",
+  "description": "Form-field components (BaseInput, BaseSelect, BaseCombobox, etc.) built on React/Radix primitives, for jogalanza projects.",
+  "type": "module",
+  "main": "./dist/base-fields.js",
+  "module": "./dist/base-fields.js",
+  "exports": {
+    ".": {
+      "import": "./dist/base-fields.js"
+    },
+    "./style.css": "./dist/base-fields.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jogalanza/ui-kit-react.git",
+    "directory": "packages/base-fields"
+  },
+  "scripts": {
+    "build": "vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0",
+    "radix-ui": "^1.6.0",
+    "lucide-react": "^1.0.0",
+    "@tiptap/react": "^3.28.0",
+    "@tiptap/starter-kit": "^3.28.0",
+    "@tiptap/extension-underline": "^3.28.0",
+    "@tiptap/extension-link": "^3.28.0",
+    "@tiptap/extension-placeholder": "^3.28.0"
+  },
+  "devDependencies": {
+    "@jogalanza/ui-kit-core": "*",
+    "@tiptap/extension-link": "^3.28.0",
+    "@tiptap/extension-placeholder": "^3.28.0",
+    "@tiptap/extension-underline": "^3.28.0",
+    "@tiptap/react": "^3.28.0",
+    "@tiptap/starter-kit": "^3.28.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "lucide-react": "^1.0.0",
+    "radix-ui": "^1.6.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.6.0",
+    "vite": "^6.4.3"
+  }
+}
